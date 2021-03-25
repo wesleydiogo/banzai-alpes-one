@@ -1,0 +1,505 @@
+@import url('//db.onlinewebfonts.com/c/5ab00d2b042c8a215c4fc486c4826b90?family=FoundryMonoline-MedIta');
+@import url('//db.onlinewebfonts.com/c/93383e2216fcd1de37a850bf5d100898?family=Foundry+Monoline');
+
+@font-face {
+  font-family: "FoundryMonoline-MedIta";
+  src: url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.eot");
+  src: url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.woff") format("woff"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.svg#FoundryMonoline-MedIta") format("svg");
+}
+
+@font-face {
+  font-family: "Foundry Monoline";
+  src: url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.eot");
+  src: url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.woff") format("woff"), url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/93383e2216fcd1de37a850bf5d100898.svg#Foundry Monoline") format("svg");
+}
+
+
+html {
+  max-width: 100%;
+  min-width: 320px;
+
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#container {
+  width: 100%;
+}
+
+#top-bar {
+  color: #707070;
+  font-size: 12px;
+  width: 100%;
+  height: 40px;
+  background-color: #EEEEEE;
+
+  a {
+    color: #707070;
+  }
+}
+
+#logo-and-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+
+  #contact {
+    font-family: "FoundryMonoline-MedIta";
+
+    #contact-name {
+      font-size: 16px;
+      line-height: 21px;
+      color: #707070;
+    }
+
+    #contact-tel {
+      font-size: 26px;
+      line-height: 26px;
+      color: #DF0209;
+    }
+  }
+}
+
+#card-solicitar-contato {
+  width: 270px;
+  height: 352px;
+  padding: 20px;
+  background-color: #EEEEEE;
+  box-shadow: 0 0 5px #00000029;
+  z-index: 1;
+
+  .header {
+    margin-bottom: 19px;
+  }
+
+  .title {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+
+    #contato {
+      font-size: 22px;
+      color: #DF0209;
+    }
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+
+  .form-control {
+    margin: 2.5px auto !important;
+    height: 36px !important;
+  }
+
+  .btn {
+    margin-top: 2.5px !important;
+  }
+}
+
+#gallery01 {
+  max-width: 870px;
+
+  .title {
+    font-family: "FoundryMonoline-MedIta";
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .gallery01-imgs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .thumbnails {
+    display: flex;
+    flex-direction: column;
+
+    .thumbnail {
+      padding: 2px;
+      margin: 2.5px 0;
+    }
+  }
+
+  .description {
+    font-family: "Foundry Monoline";
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+}
+
+#gallery02 {
+  margin: 10px 60px 40px;
+
+  .title {
+    font-family: "FoundryMonoline-MedIta";
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  .description {
+    font-family: "Foundry Monoline";
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .group-cards01 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 270px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 4px 20px 20px 20px;
+
+    img {
+      margin: 2px;
+      width: 100%;
+    }
+
+    .titleCard {
+      font-family: "FoundryMonoline-MedIta";
+      font-size: 20px;
+      line-height: 27px;
+    }
+
+    .description {
+      font-family: "Foundry Monoline";
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+#gallery03 {
+  margin: 60px 100px;
+
+  .title {
+    font-family: "FoundryMonoline-MedIta";
+    font-size: 34px;
+    line-height: 46px;
+  }
+
+  .description {
+    font-family: "Foundry Monoline";
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .group-cards02 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 270px;
+    height: 350px;
+    margin: 30px auto;
+    padding: 4px 20px 20px 20px;
+
+    img {
+      margin-top: 2px;
+      margin-bottom: 5px;
+    }
+
+    .description {
+      font-family: "Foundry Monoline";
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+}
+
+#contato-footer {
+  background-color: #EEEEEE;
+  min-height: 228px;
+  display: flex;
+  flex-direction: column;
+
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .box {
+    background-color: white;
+    width: 270px;
+    height: 80px;
+    border: 1px solid #DF0209;
+    margin: 20px 15px 0;
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      height: 30px;
+    }
+
+    .text {
+      margin-left: 17px;
+      font-size: 14px;
+      line-height: 14px;
+    }
+
+    .red02 {
+      font-family: "Foundry Monoline";
+      font-size: 22px;
+      line-height: 22px;
+      font-weight: 700;
+      color: #DF0209;
+    }
+
+    .red03 {
+      font-family: "FoundryMonoline-MedIta";
+      font-size: 22px;
+      line-height: 22px;
+      font-weight: 700;
+      color: #DF0209;
+    }
+  }
+
+  #siga-banzai {
+    font-family: "FoundryMonoline-MedIta";
+    font-size: 24px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+
+
+ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.demo .item {
+  margin-bottom: 60px;
+}
+
+.content-slider li {
+  background-color: #ed3020;
+  text-align: center;
+  color: #FFF;
+}
+
+.content-slider h3 {
+  margin: 0;
+  padding: 70px 0;
+}
+
+.demo {
+  width: 800px;
+}
+
+
+
+@media (max-width: 719px) {
+  #top-bar {
+    padding: 0 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .link-top-bar {
+      display: flex;
+      justify-items: center;
+    }
+
+    .icon {
+      margin: 0 10px;
+    }
+
+    .link-name {
+      display: none;
+    }
+
+    #group-links {
+      display: none;
+    }
+  }
+
+  #logo-and-contact {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+
+    #logo {
+      margin-bottom: 30px;
+    }
+  }
+
+  #banner01-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+  }
+
+  #banner01-web {
+    display: none;
+  }
+
+  #card-solicitar-contato {
+    margin: 40px auto;
+  }
+
+  #gallery01 {
+    margin: 40px 20px;
+
+    .title {
+      font-size: 24px;
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    .thumbnails {
+      display: none;
+    }
+
+    .description {
+      text-align: center;
+    }
+  }
+
+  #banner02-web {
+    display: none;
+  }
+
+  #banner02-mobile {
+    position: relative;
+
+    .information {
+      color: white;
+      text-align: center;
+      position: absolute;
+      bottom: 10px;
+
+      .title {
+        font-family: "FoundryMonoline-MedIta";
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 40px;
+      }
+
+      .description {
+        font-family: "Foundry Monoline";
+        font-size: 16px;
+        line-height: 21px;
+        margin: 5px 35px;
+      }
+    }
+
+  }
+
+  #gallery03 {
+    text-align: center;
+    margin: 60px 20px;
+  }
+
+  #contato-footer {
+    #siga-banzai {
+      text-align: center;
+    }
+  }
+
+}
+
+@media (min-width: 720px) {
+
+  #top-bar {
+    padding: 0 114px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .link-top-bar {
+      align-self: center;
+    }
+
+    .icon {
+      margin-right: 10px;
+    }
+  }
+
+  #logo-and-contact {
+    margin: 18px 114px;
+
+    #contact {
+      font-family: "FoundryMonoline-MedIta";
+
+      #contact-name {
+        font-size: 16px;
+        line-height: 21px;
+        color: #707070;
+      }
+
+      #contact-tel {
+        font-size: 26px;
+        line-height: 26px;
+        color: #DF0209;
+      }
+    }
+  }
+
+  #banner01-mobile {
+    display: none;
+  }
+
+  #card-solicitar-contato {
+    padding: 20px;
+    position: fixed;
+    top: 194px;
+    right: 101px;
+  }
+
+  #gallery01 {
+    margin: 30px 100px;
+
+    .thumbnails {
+      margin-right: 40px;
+    }
+  }
+
+  #banner02-mobile {
+    display: none;
+  }
+
+
+
+
+
+
+}
